@@ -1,7 +1,13 @@
 body{
     background-image: url(../img/bw.jpg);
-    
-    display: flex;
-    justify-content: center;
-    background-repeat: no-repeat;
+        flex-grow: 1;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 6px;
+}
+
+h1 {
+    font-size: 200px;
 }
