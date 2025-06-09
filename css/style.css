@@ -1,4 +1,4 @@
-body{
+/* body{
     background-image: url(../img/bw.jpg);
         flex-grow: 1;
         position: relative;
@@ -6,8 +6,31 @@ body{
         flex-direction: row;
         justify-content: space-between;
         padding: 6px;
+        height: 10px;
+} */
+
+.my-element {
+  background-image: url("../img/bw.jpg"); 
+  background-repeat: no-repeat; 
+  background-size: auto; 
+  width: 2000px; 
+  height: 1000px; 
 }
 
 h1 {
     font-size: 200px;
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.p{
+    font-size: 1000;
+}
+.body {
+  text-align: center;
+  border: 3px solid green;
 }
